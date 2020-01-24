@@ -1,0 +1,144 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  margin: 0;
+  background: #dae0e6;
+}
+#heading {
+  margin: 0;
+  text-align: left;
+  padding: 5px;
+  background: white;
+  font-size: 30px;
+}
+#heading input {
+  position: absolute;
+  left: 35%;
+  width: 30%;
+  height: 20px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+}
+#logo {
+  height: 30px;
+  margin-right: 6px;
+  border-radius: 50%;
+  vertical-align: bottom;
+}
+
+.post-head {
+  text-align: left;
+  margin: 2% 6%;
+  width: 53%;
+  border-bottom: 2px solid grey;
+}
+.Post-List {
+  display: flex;
+  min-width: 70%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.post {
+  width: 85%;
+  min-height: 80px;
+  display: flex;
+  margin: 2%;
+  border-radius: 4px;
+  background-color: white;
+  border: 1px solid lightgrey;
+}
+.post:hover {
+  border: 1px solid grey;
+}
+.post-user {
+  margin-top: 3px;
+  margin-left: 1%;
+  font-size: 10px;
+  color: grey;
+  text-align: left;
+}
+.post-text {
+  margin: 1% 1%;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+.votes {
+  background-color: rgb(230, 230, 230);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  padding: 5px;
+  border-radius: 4px 0 0 4px;
+}
+
+.votes p {
+  margin: 0;
+  font-weight: 600;
+}
+
+.votes img {
+  height: 10px;
+  padding: 5px;
+  text-align: center;
+}
+.upvote:hover {
+  background-color: #fc4103;
+  border-radius: 3px;
+}
+.downvote:hover {
+  background-color: #0079d3;
+  border-radius: 3px;
+}
+
+.comment {
+  width: 80%;
+}
+.post-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+}
+.comment-head {
+  text-align: left;
+  align-self: flex-end;
+  margin-right: 10px;
+  font-size: 13px;
+  color: grey;
+}
+.sub-info {
+  height: 250px;
+  width: 30%;
+  margin-top: 8px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 1px 2px 7px rgba(50, 50, 50, 0.75);
+}
+.sub-info h4 {
+  margin: 0;
+  padding: 5%;
+  border-radius: 5px 5px 0 0;
+
+  color: white;
+  background-color: #0079d3;
+}
+
+.sub-info p {
+  padding: 5px;
+  overflow-wrap: break-word;
+}
+.main-wrapper {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: space-around;
+}
+
+.lowerBar {
+  display: flex;
+  margin: 3px 1%;
+}
